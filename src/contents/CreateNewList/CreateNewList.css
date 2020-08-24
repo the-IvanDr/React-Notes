@@ -1,0 +1,72 @@
+.CreateNewList {
+    padding: 20px 10px;
+}
+
+.CreateNewList .header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #999134;
+    color: rgba(0, 0, 0, .6);
+}
+
+.CreateNewList .header:focus{
+    outline: none;
+}
+
+.CreateNewList ul {
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.CreateNewList ul li {
+    border: 1px solid black;
+    padding: 10px 20px;
+    padding-right: 10px;
+    background: #eee;
+    margin-top: 5px;
+    border-radius: 50px;
+    width: 320px;
+}
+
+.CreateNewList ul li input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    height: 100%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.CreateNewList ul li input:focus{
+    outline: none;
+}
+
+@media all and (max-width: 560px){
+    .CreateNewList .header {
+        font-size: 20px;
+    }
+
+    .CreateNewList ul {
+        font-size: 15px;
+    }
+
+    .CreateNewList ul li input {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .CreateNewList ul li{
+        
+    }
+}

@@ -1,0 +1,23 @@
+.DeleteButton{
+    background: none;
+    border: none;
+    margin-left: 20px;
+    font-size: 20px;
+    
+    color: rgb(200, 56, 95);
+    opacity: .3;
+    transition: opacity .4s;
+}
+
+.DeleteButton:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+@media all and (max-width: 560px){
+    .DeleteButton{
+        font-size: 15px;
+        /* margin-left: -15px; */
+        /* padding: 0; */
+    }
+}

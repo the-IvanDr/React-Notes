@@ -1,0 +1,17 @@
+.BackArrow {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 25px;
+    opacity: .2;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+
+    transition: opacity .4s;
+}
+
+.BackArrow:hover{
+    cursor: pointer;
+    opacity: .4;
+}

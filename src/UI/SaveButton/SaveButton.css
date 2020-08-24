@@ -1,0 +1,22 @@
+.SaveButton {
+    background: none;
+    border: none;
+    opacity: .2;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    transition: opacity .4s;
+}
+
+.SaveButton:hover{
+    opacity: .4;
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 560px){
+    .SaveButton{
+        font-size: 15px;
+    }
+}

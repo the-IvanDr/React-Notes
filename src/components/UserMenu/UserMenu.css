@@ -1,0 +1,40 @@
+.UserMenu{
+    position: absolute;
+    top: -25px;
+    left: -40px;
+    padding-left: 50px;
+    width: auto;
+}
+
+.UserMenu button{
+    display: inline-block;
+    margin: 0;
+    height: 100%;
+    background: none;
+    border: none;
+    opacity: .5;
+    font-size: 13px; 
+}
+
+.UserMenu button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.UserMenu button:focus{
+    outline: none;
+}
+
+.UserMenu ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.UserMenu ul button{
+    transition: all .3s;
+    margin-left: -50px;
+    opacity: 0;
+    display: none;
+}

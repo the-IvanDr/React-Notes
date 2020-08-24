@@ -1,0 +1,22 @@
+.RemoveList {
+    color: red;
+    background: none;
+    border: none;
+    opacity: .2;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: opacity .4s;
+}
+
+.RemoveList:hover{
+    cursor: pointer;
+    opacity: .4;
+}
+
+@media all and (max-width: 560px){
+    .RemoveList {
+        font-size: 15px;
+    }
+}
